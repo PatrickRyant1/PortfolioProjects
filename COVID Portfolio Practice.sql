@@ -7,13 +7,13 @@
 --WHERE continent IS NOT NULL
 --ORDER BY 3,4
 
--- Select Data tha we're going to use
+-- Select Data that we're going to use.
 
 --SELECT Location, date, total_cases, new_cases, total_deaths, population
 --FROM PortfolioProject.. ['Covid Deaths']
 --ORDER BY 1,2
 
--- Looking at Total Cases vs Total Deaths
+-- Looking at Total Cases vs Total Deaths.
 -- Shows the likelihood of death from contraction of COVID in Australia
 
 --SELECT Location, date, total_cases, total_deaths, ROUND((total_deaths/total_cases)*100,2) AS 'Death Percentage'
